@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Noor-e-Zar Jewelry</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">Noor-e-Zar<span>.</span></a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <a href="shop.html" class="nav-button">View Collection</a>
+</header>
+
+<main class="page">
+    <p class="breadcrumb">
+        <a href="index.html">Home</a> /
+        <a href="shop.html">Shop</a> /
+        Product
+    </p>
+
+    <section class="product-detail">
+        <div class="detail-image">
+            <img
+                id="productImage"
+                src="images/shop 1.jpg"
+                alt="Jewellery product"
+            >
+        </div>
+
+        <div class="detail-info">
+            <p class="eyebrow">NOOR-E-ZAR COLLECTION</p>
+
+            <h1 id="productName">Classic Gold Drops</h1>
+            <p class="detail-price" id="productPrice">Rs. 1,800</p>
+
+            <p class="detail-description" id="productDescription">
+                Elegant golden earrings for everyday wear and special occasions.
+            </p>
+
+            <p><strong>Style:</strong> Elegant and minimal</p>
+            <p><strong>Colour:</strong> Golden</p>
+            <p><strong>Care:</strong> Keep away from water and perfume.</p>
+
+            <label class="quantity-label" for="quantity">Quantity</label>
+            <input type="number" id="quantity" min="1" max="10" value="1">
+
+            <button class="button add-cart" id="addToCart">Add to Bag</button>
+            <p id="cartMessage" class="message" aria-live="polite"></p>
+
+            <p class="small-note">
+                Product details and prices are sample information for this website project.
+            </p>
+
+            <a href="shop.html" class="small-link">← Back to Shop</a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="index.html" class="logo">Noor-e-Zar<span>.</span></a>
+    <p>Beauty in every little detail.</p>
+    <p class="copyright">© 2026 Noor-e-Zar Jewelry. Student project.</p>
+</footer>
+
+</body>
+</html>
+```
